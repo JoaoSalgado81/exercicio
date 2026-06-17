@@ -1,0 +1,110 @@
+body
+{
+    background-color: rgb(140, 214, 30);
+
+}
+.imagem{
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    background-color: yellow
+    ;
+}
+.j{
+    background-color: rgb(0, 26, 255);
+    color: white;
+    
+    border-radius: 10px;
+margin-left: 20px;
+margin-right: 90px;
+text-align: center;
+}
+.linha1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.linha2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.jogador1,
+.jogador2,
+.jogador3,
+.jogador4,
+.jogador5{
+    text-align: center;
+}
+nav a:hover{
+    background-color: darkblue;
+}
+a{color: white;}
+.n{
+    background-color: blue;
+}
+li{
+    margin-bottom: 60px;
+}
+footer{
+    background-color: #002776;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+.titu{
+    background-color: blue;
+}
+.jg{
+    text-align: center;
+    padding: 0;
+    
+}
+.partida{
+    background-color: blue;
+    color: white;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.form{
+    background-color: yellow;
+    text-align: center;
+}
+.for{
+    text-align: center
+}
+.container-direita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px; /* espaço entre imagem e texto */
+}
+
+footer {
+    background-color: #002776;
+    color: white;
+    padding: 15px;
+}
+
+.container-direita a {
+    color: white;
+    text-decoration: none;
+}
+footer p {
+    position: relative;
+    top: 30px;
+}
+
+
+   
+
+
