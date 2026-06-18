@@ -86,7 +86,7 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 10px; /* espaço entre imagem e texto */
+    gap: 10px; 
 }
 
 footer {
@@ -103,8 +103,33 @@ footer p {
     position: relative;
     top: 30px;
 }
+.linha{
+    background-color: yellow;
+}
 
+.copa-container {
+    display: flex;
+    align-items: center; 
+    gap: 40px;          
+    margin: 0 auto;      
+    margin-bottom: 50px;
+}
 
-   
-
+.copa-texto {
+    flex-direction: column;
+    line-height: 1.2;
+    font-size: 20px;
+    max-width: 1000px; 
+}
+.inv {
+    flex-direction: row-reverse;
+}
+.copa-container .inv {
+    display: flex;
+    align-items: center; 
+    gap: 40px;          
+    margin: 0 auto;      
+    margin-bottom: 50px;
+    background-color: blue;
+}
 
