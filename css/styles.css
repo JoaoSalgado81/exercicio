@@ -1,72 +1,74 @@
-body
-{
-    background-color: rgb(140, 214, 30);
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.imagem{
+
+body {
+    background-color: rgb(140, 214, 30);
+    font-family: Arial, sans-serif;
+}
+
+.imagem {
     display: block;
     margin: 0 auto;
 }
+
 h1 {
     text-align: center;
-    background-color: yellow
-    ;
+    background-color: yellow;
 }
-.j{
+
+.j {
     background-color: rgb(0, 26, 255);
     color: white;
-    
     border-radius: 10px;
-margin-left: 20px;
-margin-right: 90px;
-text-align: center;
-}
-.linha1{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
+    margin: 20px 90px 20px 20px;
+    padding: 10px;
+    text-align: center;
 }
 
-.linha2{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    
+.linha {
+    background-color: yellow;
+    padding: 20px 0;
 }
 
-.jogador1,
-.jogador2,
-.jogador3,
-.jogador4,
-.jogador5{
-    text-align: center;
+.copa-container {
+    display: flex;
+    align-items: center; 
+    gap: 40px;          
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
 }
-nav a:hover{
-    background-color: darkblue;
+
+
+.copa-container.inv {
+    flex-direction: row-reverse;
 }
-a{color: white;}
-.n{
-    background-color: blue;
+
+.copa-texto {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    font-size: 20px;
 }
-li{
-    margin-bottom: 60px;
-}
-footer{
-    background-color: #002776;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
-.titu{
-    background-color: blue;
-}
-.jg{
-    text-align: center;
-    padding: 0;
-    
-}
-.partida{
+
+
+.linha1 { display: flex; justify-content: center; gap: 100px; }
+.linha2 { display: flex; justify-content: center; gap: 50px; }
+.jogador1, .jogador2, .jogador3, .jogador4, .jogador5 { text-align: center; }
+nav a:hover { background-color: darkblue; }
+a { color: white; text-decoration: none; }
+.n { background-color: blue; }
+li { margin-bottom: 60px; }
+.titu { background-color: blue; }
+.jg { text-align: center; padding: 0; }
+
+.partida {
     background-color: blue;
     color: white;
     width: 700px;
@@ -75,13 +77,12 @@ footer{
     border-radius: 15px;
     text-align: center;
 }
-.form{
-    background-color: yellow;
-    text-align: center;
+
+.form { background-color: yellow; text-align: center;
+padding: 0;
 }
-.for{
-    text-align: center
-}
+.for { text-align: center; }
+
 .container-direita {
     display: flex;
     justify-content: flex-end;
@@ -92,44 +93,21 @@ footer{
 footer {
     background-color: #002776;
     color: white;
-    padding: 15px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 
-.container-direita a {
-    color: white;
-    text-decoration: none;
-}
-footer p {
-    position: relative;
-    top: 30px;
-}
-.linha{
-    background-color: yellow;
+html, body {
+    height: 100%;
 }
 
-.copa-container {
+body {
+    min-height: 100vh;
     display: flex;
-    align-items: center; 
-    gap: 40px;          
-    margin: 0 auto;      
-    margin-bottom: 50px;
-}
-
-.copa-texto {
     flex-direction: column;
-    line-height: 1.2;
-    font-size: 20px;
-    max-width: 1000px; 
-}
-.inv {
-    flex-direction: row-reverse;
-}
-.copa-container .inv {
-    display: flex;
-    align-items: center; 
-    gap: 40px;          
-    margin: 0 auto;      
-    margin-bottom: 50px;
-    background-color: blue;
 }
 
+main {
+    flex: 1;
+}   
